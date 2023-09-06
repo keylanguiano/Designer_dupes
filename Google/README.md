@@ -3,7 +3,7 @@
 # **ÍNDICE**
 1. Intro
 2. Que construí
-3. 
+3. Objetivo del proyecto
 4. Link al Demo
 
 ## 1. Intro
@@ -20,5 +20,13 @@ Contiene las siguientes secciones:
 * **Footer:** Sección que incluye enlaces externos al final de la página.
 
 Las tecnologías que utilicé son:
+
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+## 3. Objetivo del proyecto
+Aprender a utilizar las etiquetas estándar de HTML5  y CSS
+
+## 4. Link al Demo
+Aquí puedes ver el proyecto terminado:
+[Dupe Google](https://vercel.com/keylanguiano/google/3aFCitk9U651Sg1nqHguehY66TTa)
