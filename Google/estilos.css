@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    /*Hace que los elementos se hagan a la derecha del contenedor*/
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    text-decoration: none;
+    margin-right:  12px;
+    color: black;
+}
+
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    width: 22px;
+    height: 22px;
+    margin-left: 12px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img {
+    border-radius: 80px;
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: 0px -5px;
+}
+
+main {
+    margin-top: 198px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .main-logo img {
+    width: 272px;
+    height: 100%;
+}
+
+main .main-input {
+    width: 585px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input input {
+    width: 505px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container {
+    width: 590px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20214447;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://cdn.icon-icons.com/icons2/1369/PNG/512/-search_90025.png');
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+    /*Ajusta el contenido al fondo*/
+    background-size: contain;
+    background-position: center;
+     /*Evita que se repita la imagen en el fondo*/
+    background-repeat: no-repeat;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    width: 18px;
+    height: 18px;
+    /*Ajusta el contenido al fondo*/
+    background-size: contain;
+    background-position: center;
+     /*Evita que se repita la imagen en el fondo*/
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon {
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQU9EB56qp8B5qgt89OtkGpN86KFafBM7cBixk1nXOs7ukEVbJE');
+    width: 22px;
+    height: 22px;
+    /*Ajusta el contenido al fondo*/
+    background-size: contain;
+    background-position: center;
+     /*Evita que se repita la imagen en el fondo*/
+    background-repeat: no-repeat;
+    padding-right: 40px;
+}
+
+main .main-buttons {
+    width: 350px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-right: 12px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 1px 0;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    /*Divide en columnas iguales*/
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    /*Quita las viñetas de la lista*/
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+footer .footer-legt {
+    justify-content: left;
+}
+
+footer .footer-right {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color:  #5f6368;
+    text-decoration: none;
+}
