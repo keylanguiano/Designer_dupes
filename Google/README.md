@@ -28,4 +28,4 @@ Aprender a utilizar las etiquetas estándar de HTML5  y CSS3
 
 ## 4. Link al Demo
 Aquí puedes ver el proyecto terminado:
-[Dupe Google](https://google-5krv187ja-keylanguiano.vercel.app)
+[Dupe Google](https://google-ruddy.vercel.app)
