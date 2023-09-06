@@ -1,4 +1,4 @@
-# Dupe Google con HTML5 Y CSS
+# Dupe Google con HTML5 Y CSS3
 
 # **ÍNDICE**
 1. Intro
@@ -25,8 +25,8 @@ Las tecnologías que utilicé son:
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 ## 3. Objetivo del proyecto
-Aprender a utilizar las etiquetas estándar de HTML5  y CSS
+Aprender a utilizar las etiquetas estándar de HTML5  y CSS3
 
 ## 4. Link al Demo
 Aquí puedes ver el proyecto terminado:
-[Dupe Google](https://vercel.com/keylanguiano/google/3aFCitk9U651Sg1nqHguehY66TTa)
+[Dupe Google](https://google-5krv187ja-keylanguiano.vercel.app)
